@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ManualHelpDesk.css">
+    <link rel="icon" type="image/png" href="imagens/LogoTI.png"/>
+    <script defer src="loginAdm.js"></script>
+    <script type="module" src="/gemini-assistant.js"></script>
+
+ 
+    <script>
+        function verificarAutenticacao() {
+          // Verificar se o usuário está autenticado
+          const usuarioAutenticado = sessionStorage.getItem('usuarioAutenticado');
+      
+          // Se o usuário não estiver autenticado, redirecionar para a página de login
+          if (!usuarioAutenticado) {
+            sessionStorage.clear();
+            window.location.href = 'manual-assistente-login';
+          }
+        }
+      
+        // Chamar a função de verificação ao carregar a página
+        window.onload = verificarAutenticacao;
+
+
+      </script>
+
+      
+
+      
+    
+    <title>Inicio</title>
+</head>
+<header>
+    <img src="imagens/logoNovoDivina.png" class="logoDivina">
+    
+    </header>
+
+ <h1 class="tituloPag">MANUAL ASSISTENTE DE SISTEMAS</h1>
+    <hr><div class="nav">
+    <a href="manual-assistente-tasy-java.html" ><button class="btNav">Tasy</button></a>
+    <a href="" ><button class="btNav">Interact</button></a>
+    <a href="" ><button class="btNav">Wyse</button></a>
+    <button class="btSair" id="btSair" onclick="Sair();">Sair</button>
+</div><hr>
+<br><br>
+<body class="bodyQueri">
+    <section> 
+    <h1 class="tituloInicio">GUIA DE ATENDIMENTO E SUPORTE DE TI </h1>
+       
+    <!--<h1><a href="cadastro.html" >CADASTRE-SE</a></h1><br>-->
+    <br><br>
+   <div class="textCaixa"> <p>Acreditamos que a satisfação do colaborador é tão importante
+quanto oferecer soluções inovadoras, mantendo a qualidade em
+sistemas e serviços, assegurando uma contínua e permanente
+atualização tecnológica.
+    <br>Visando manter o atendimento de forma organizada e
+transparente, listamos os processos de atendimento e
+esclarecimentos sobre as ordens de serviços para área de
+<b><d class="destaqText" >Tecnologia da Informação.</d></b></p>
+</div>
+<br>
+<div class="paragrafoText">
+<p><h3 class="tituloManual">ÁREA DE SUPORTE</h3></p>
+<p>A orientação técnica compreende o esclarecimento de dúvidas referente às funções e/ou
+    módulos do Sistema Tasy e demais sistemas que estão em utilização na <b>RSDP.</b> Esse serviço é
+    realizado pela equipe de Assistentes de Sistema, visando auxiliar os colaboradores na
+    utilização dos sistemas implementados pelo <b><d class="destaqText" >Serviço de Tecnologia da Informação.</b></b></p>
+        Este manual visa classificar os procedimentos de atendimento, orientando o registro e
+        consulta das ordens de serviço, obtenção de informações desejadas e ferramentas utilizadas
+        para otimizar esse processo.
+<br><br>
+<p><h3 class="tituloManual">OBJETIVOS E ESCOPO DE TRABALHO</h3></p>
+O escopo desse serviço abrange atividades como:
+<li>
+    Esclarecimento de dúvidas quanto à operação dos sistemas utilizados pela rede; </li>
+<li>
+    Triagem, pré-análise e encaminhamento para a área de Análise e Desenvolvimento se necessário;  </li>
+<li>
+    Criação de usuários e ajuste de perfis;  </li>
+<li>
+    Auxílio por telefone na utilização dos sistemas da rede de saúde;  </li>
+<li>
+    Atendimento por ordem de serviço na resolução de dúvidas ou solicitações pertinentes ao suporte, garantindo 
+    rastreabilidade dos chamados;  </li>
+<li>
+    Treinamentos.  </li><br>
+
+    <p><h3 class="tituloManual">O QUE NÃO É ESCOPO DA ÁREA DE SUPORTE (HELPDESK)</h3></p>
+   
+    <li>
+        Atendimento para funções não implantadas pela equipe de TI;  </li>
+    <li>
+        Configuração, parametrização e/ou migração de plataforma, novos módulos/rotinas/funções;  </li>
+    <li>
+        Definição ou orientação sobre o negócio e/ou processo do colaborador; </li>
+    <li>
+        Desenvolvimento e/ou ajustes de relatórios; </li>
+    <li>
+        Correção de erros provenientes de operações e uso indevido do sistema. </li>
+    </section>
+</div>
+    <hr>
+    <!-- Painel de Log do Gemini console integrado para testes
+<div id="geminiLogPanel">
+  <div id="geminiLogHeader">📜 Log do Assistente</div>
+  <div id="geminiLogContent"></div>
+</div>
+-->
+
+   <footer>
+    <a href="/manual-assistente-inicio.html" class="linkInicioRodap"><b>Inicio da Página</b></a>
+<div class="btn_social">
+    <ul>
+        <li><a href="https://divinaprovidencia.org.br/" target="_blank" title="site"><e class="site">Site</e></a></li>
+        <li><a href="http://192.168.5.226:8080/intrarsdp/intranet/" target="_blank" title="intranet"><e class="intranet">Intranet</e></a></li>                   
+    </ul>
+</div>
+</footer>
+   
+</body>
+</html>

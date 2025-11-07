@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+      <html>
+        <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="/cadastro.css"> 
+          <script>
+            function verificarAutenticacao() {
+              // Verificar se o usuário está autenticado
+              const usuarioAutenticado = sessionStorage.getItem('usuarioAutenticado');
+          
+              // Se o usuário não estiver autenticado, redirecionar para a página de login
+              if (!usuarioAutenticado) {
+                sessionStorage.clear();
+                window.location.href = '/public/manual-assistente-inicio.html';
+              }
+            }
+          
+            // Chamar a função de verificação ao carregar a página
+            window.onload = verificarAutenticacao;
+          </script>
+             </head>
+
+<body>
+  <header>
+    <img src="/public/imagens/logoDivina.png" class="logo"/>
+   </header>
+   <p id="resultado" disabled class="resultadoEnd"></p>
+     <form class="form1End">
+       
+                  
+          <table>
+         
+<form class="formEnd"><br>
+ <fieldset>
+<legend class="legendEnd"><h1>Endereço</h1></legend><br>
+            
+             <label for="cep">Cep:</label><br>  
+             <input type="text" name="cep" id="cep" class="inputEnd" size="10" required/><br><br>
+             <label for="endereco">Endereço: </label>  <label for="nEnd" class="nEndLabel">Nº:</label><br>  
+             <input type="text" name="endereco" id="endereco" class="inputEnd" size="25" required/> 
+             <input type="text" name="nEnd" id="nEnd" class="inputNEnd" required size="4"/><br><br>
+             
+             
+             <label for="bairro">Bairro: </label><br>  
+             <input type="text" name="Bairro" id="bairro" maxlength="30" class="inputBairroEnd" required/><br><br>
+             <label for="cidade">Cidade: </label><br>  
+             <input type="text" name="cidade" id="cidade" maxlength="30" class="inputCidadeEnd" required/><br><br>
+			       <label for="estado">Estado: </label><br>  
+             <input type="text" name="estado" id="estado" size="3" class="inputEstadoEnd" required/><br><br>
+             <label for="estado">País: </label><br>  
+             <input type="text" name="pais" id="pais" size="15" class="inputPaisEnd" required/><br><br>
+              <br><br><br>
+             <input type="button" id="salvar" value="Salvar" class="salEnd" onclick="EnviaEnd();" required/>
+             <input type="button" name="resetar" value="Resetar" class="resetEnd" onclick="location.reload()">
+              
+
+<br><br><br>
+<a href="cadastro.html" ><input type="button" value="Voltar ao Inicio do cadastro" class="voltarCad"></a><br>
+        </form>
+       </fieldset>
+          </table>
+      
+    </form>
+    <p id="resultado" disabled></p>
+
+    <script>
+
+function EnviaEnd() {
+   var preenchido = "" ;
+  
+   var cep = document.getElementById("cep").value;
+   var endereco = document.getElementById("endereco").value;
+   var numeroEnd = document.getElementById("nEnd").value;
+   var bairro = document.getElementById("bairro").value;
+   var cidade = document.getElementById("cidade").value;
+   var estado = document.getElementById("estado").value;
+   var pais = document.getElementById("pais").value;
+   var resultado = [cep,endereco,numeroEnd,bairro,cidade,estado,pais];
+   var preenchido = resultado;
+   
+   document.getElementById("resultado").innerHTML = resultado;
+  
+   
+   
+   }
+    </script>
+
+
+</body>
+
+       
+</html>

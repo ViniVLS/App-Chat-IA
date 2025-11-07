@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+      <html>
+             <head>
+              <meta charset="UTF-8">
+              <meta http-equiv="X-UA-Compatible" content="IE=edge">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <link rel="stylesheet" href="/cadastro.css">
+				   <script type="text/javascript" src="/cadastro.js"></script>
+                   <script>
+                    function verificarAutenticacao() {
+                      // Verificar se o usuário está autenticado
+                      const usuarioAutenticado = sessionStorage.getItem('usuarioAutenticado');
+                  
+                      // Se o usuário não estiver autenticado, redirecionar para a página de login
+                      if (!usuarioAutenticado) {
+                        sessionStorage.clear();
+                        window.location.href = '/public/manual-assistente-inicio.html';
+                      }
+                    }
+                  
+                    // Chamar a função de verificação ao carregar a página
+                    window.onload = verificarAutenticacao;
+                  </script>
+          </head> 
+          <header class="header">
+            <img src="/public/imagens/logoDivina.png" class="logo"/>
+            <br><br><a href="/public/manual-assistente-inicio.html" ><button class="inicioPag">Voltar ao Inicio</button></a>
+           </header>         
+<body >
+  
+
+    <section>  
+          <form>        
+          <table>
+         <fieldset> 
+<br>
+
+  <legend><h1>Preencha o Cadastro</h1></legend>
+ <br>
+             
+             <label for="nome" >Nome Completo: </label><br>  
+             <input type="text" name="nome" id="nome" size="35" required/><br><br>
+             <label for="nasc">Data de Nascimento: </label><br>  
+             <input type="date" name="dataDeNascimento" id="nasc" maxlength="8" required/><br><br>
+             <label for="cpf">CPF: </label><br>  
+             <input type="text" name="cpf" id="cpf" maxlength="11" required/><br><br>
+             <label for="rg">RG: </label><br>  
+             <input type="text" name="rg" id="rg" maxlength="10" required/><br><br>
+			 <label for="email">Email: </label><br>  
+             <input type="email" name="email" id="email" size="40" placeholder="nome@email.com"required/><br><br>
+			 <label for="fone">Fone:</label><br>
+			 <input type="tel" id="fone" placeholder="(xx)xx-xx-xx-xx" name="fone" required><br><br><br>
+			 <textarea placeholder="Deixe sua opniao" id="opiniao"></textarea><br><br>
+ 			 
+             <a href="cadastroEnd.html" ><input type="button" name="btIrEnd" id="btIrEnd" value="Cadastrar Endereco" ></input></a>
+             <br><br><br><br><br>
+   <input type="button" value="Enviar" name="btCad" id="btCad" onclick="Enviar();"></input>
+   <input type="button" name="resetar" value="Resetar" class="resetCad" onclick="location.reload()">             
+       </fieldset>
+          </table>
+          </form>
+		  <br><br><br>
+</section><br><br><br>
+<p id="nomeRel"  disabled ></p>
+<p id="idade"  disabled ></p>
+</body>
+<footer>
+    <div>
+        <ul>
+            <li><a href="https://divinaprovidencia.org.br/" target="_blank" title="site"><e class="site">Site</e></a></li>
+            <li><a href="http://192.168.5.226:8080/intrarsdp/intranet/" target="_blank" title="intranet"><e class="intranet">Intranet</e></a></li>                   
+        </ul>
+    </div>
+    </footer>
+</html>

@@ -1,0 +1,363 @@
+body {
+  background-color: CadetBlue;
+}  
+form {
+    background-color: Lavender;
+    box-sizing: content-box;  
+    width: 500px;
+    height: auto 0px;
+    padding: 30px;  
+    border: 1px solid blue;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 135px;
+} 
+legend{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 20px;
+    padding: 2px 2px 2px 2px;
+    height: 55px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    width: 250px;
+    text-align: center;
+    border: solid 2px;
+    border-color: rgb(126, 129, 136);
+}
+fieldset{
+ border-radius: 25px;
+ background-color: antiquewhite;
+ border: solid 1px;
+}  
+input{
+    margin: 5px;
+} 
+
+.header{
+margin-bottom: 0px;
+}
+
+#btCad{
+  font:bold 15px "Arial Black", Gadget, sans-serif;
+  font-style:normal;
+  color: antiquewhite;
+  background:#158edb;
+  border:0px solid #4a3a00;
+  text-shadow:0px -1px 1px #222222;
+  box-shadow:0px 0px 12px #2e2300;
+  -moz-box-shadow:0px 0px 12px #2e2300;
+  -webkit-box-shadow:0px 0px 12px #2e2300;
+  border-radius:15px 15px 15px 15px;
+  -moz-border-radius:15px 15px 15px 15px;
+  -webkit-border-radius:15px 15px 15px 15px;
+  width:100px;
+  padding:20px 20px;
+  cursor:pointer;
+  margin:0 auto;
+  text-align: center;
+}
+#btCad:active{
+  cursor:pointer;
+  position:relative;
+  top:2px;
+}
+#btCad:hover{
+    background-color: blue;
+}
+#btIrEnd{
+  background-color:  gray;
+  color: white;
+  border-radius: 15px;
+}
+#btIrEnd:active{
+    cursor:pointer;
+    position:relative;
+    top:2px;
+}
+#btIrEnd:hover{
+      background-color:Aquamarine;
+      color:black;
+}
+#resultado{
+    background-color: #eeeeee;
+    border: 5px;
+  
+}
+#formEnd {
+    background-color: paleturquoise;
+    box-sizing: content-box;  
+    width: 500px;
+    height: auto 0px;
+    padding: 30px;  
+    border: 1px solid blue;  
+    
+}
+
+.inicioPag{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-left: 835px;
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:30px;
+    border-width:1px;
+    color:#fff;
+    border-color:#337bc4;
+    font-weight:bold;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    box-shadow: 3px 4px 0px 0px #1564ad;
+    text-shadow: 0px 1px 0px #528ecc;
+    background:linear-gradient(#77caad, #056649);
+    margin-right: 5px;
+}
+
+#legendEnd {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 20px;
+    margin-left: 120px;
+    padding: 2px 2px 2px 2px;
+}
+.inputEnd {
+    margin: 5px;
+}
+
+.salEnd{
+    font:bold 15px "Arial Black";
+    font-style:normal;
+    color:white;
+    background:#158edb;
+    border:0px solid #4a3a00;
+    text-shadow:0px -1px 1px #222222;
+    box-shadow:0px 0px 12px #2e2300;
+    -moz-box-shadow:0px 0px 12px #2e2300;
+    -webkit-box-shadow:0px 0px 12px #2e2300;
+    border-radius:15px 15px 15px 15px;
+    -moz-border-radius:15px 15px 15px 15px;
+    -webkit-border-radius:15px 15px 15px 15px;
+    width:100px;
+    padding:20px 20px;
+    cursor:pointer;
+    margin:0 auto;
+    text-align: center;
+}
+.salEnd:active{
+    cursor:pointer;
+    position:relative;
+    top:2px;
+}
+.salEnd:hover{
+    background-color: goldenrod;
+}
+.resetCad{
+    font:bold 15px "Arial Black", Gadget, sans-serif;
+    font-style:normal;
+    color:antiquewhite;
+    background: darkred;
+    border:0px solid #4a3a00;
+    text-shadow:0px -1px 1px #222222;
+    box-shadow:0px 0px 12px #2e2300;
+    -moz-box-shadow:0px 0px 12px #2e2300;
+    -webkit-box-shadow:0px 0px 12px #2e2300;
+    border-radius:15px 15px 15px 15px;
+    -moz-border-radius:15px 15px 15px 15px;
+    -webkit-border-radius:15px 15px 15px 15px;
+    width:100px;
+    padding:20px 20px;
+    cursor:pointer;
+    margin:0 auto;
+    text-align: center;
+    margin-left: 20px;
+}
+.resetCad:active{
+    cursor:pointer;
+    position:relative;
+    top:2px;
+}
+.resetCad:hover{
+       background-color: red;
+}
+.resetEnd{
+      font:bold 15px "Arial Black", Gadget, sans-serif;
+      font-style:normal;
+      color:antiquewhite;
+      background: darkred;
+      border:0px solid #4a3a00;
+      text-shadow:0px -1px 1px #222222;
+      box-shadow:0px 0px 12px #2e2300;
+      -moz-box-shadow:0px 0px 12px #2e2300;
+      -webkit-box-shadow:0px 0px 12px #2e2300;
+      border-radius:15px 15px 15px 15px;
+      -moz-border-radius:15px 15px 15px 15px;
+      -webkit-border-radius:15px 15px 15px 15px;
+      width:100px;
+      padding:20px 20px;
+      cursor:pointer;
+      margin:0 auto;
+      text-align: center;
+      margin-left: 20px;
+}
+.resetEnd:active{
+      cursor:pointer;
+      position:relative;
+      top:2px;
+}
+.resetEnd:hover{
+         background-color: red;
+}
+.voltarCad{
+        background-color:  gray;
+        color: white;
+        border-radius: 15px;
+}
+.voltarCad:active{
+        cursor:pointer;
+        position:relative;
+        top:2px;
+}
+.voltarCad:hover{
+          background-color:Aquamarine;
+          color:black;
+}
+ul {
+        list-style-type: none;
+        margin: 1px;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        
+}    
+li {
+        float: left;
+}     
+li a {
+        display: inline-block;
+        color: rgb(22, 5, 5);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        margin-left: 85px;
+       
+}
+.dtNsRel{
+        margin-left: 150px;
+}
+.foneRel{
+        margin-left: 200px;
+}
+section{
+       margin-left: 285px;
+       margin-top: 0px;
+        
+}
+.form1End{
+        margin-left: 285px;
+        margin-top: 50px;
+        margin-left: 390px;
+}
+.logo{
+  margin-top: 15px;
+  animation-name: logoAnimacao;
+  animation-duration: 10s;
+  position: relative;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  width: 300px;
+  height: 150px;
+  animation-timing-function: linear;
+  border-radius: 40px;
+}
+footer{
+  height: 50px;
+  width:auto;
+  text-align: center;
+  padding-top: 2px;
+  background-color: rgb(185, 174, 163);
+  border-radius:10px;   
+  color: white;
+    }
+.btn_social{
+    margin-top: 0x;   
+    background-color: transparent;
+    margin-left: 0px;    
+}
+.resultadoEnd{
+  background-color: transparent;
+}
+.nEndLabel {
+  text-align: right;
+}
+      
+@keyframes logoAnimacao {
+    0% {
+      margin-left: 0px;
+    }
+    05% {
+      margin-left: 47.5px;
+    }
+    10% {
+      margin-left: 95px;
+    }
+    15% {
+      margin-left: 142.5px;
+    }
+    20% {
+      margin-left: 190px;
+    }
+    25% {
+      margin-left: 237.5px;
+    }
+    30% {
+      margin-left: 285px;
+    }
+    35% {
+      margin-left: 332.5px;
+    }
+    40% {
+      margin-left: 380px;
+    }
+    45% {
+      margin-left: 427.5px;
+    }
+    50% {
+      margin-left: 475px;
+    }
+    55% {
+      margin-left: 522.5px;
+    }
+    60% {
+      margin-left: 570px;
+    }
+    65% {
+      margin-left: 617.5px;
+    }
+    70% {
+      margin-left: 665px;
+    }
+    75% {
+      margin-left: 712.5px;
+    }
+    80% {
+      margin-left: 760px;
+    }
+    85% {
+      margin-left: 807.5px;
+    }
+    90% {
+      margin-left: 855px;
+       }
+    95% {
+        margin-left: 902.5px;
+         }
+    100% {
+          margin-left: 950px;
+           }
+}

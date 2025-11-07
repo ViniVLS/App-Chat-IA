@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ManualHelpDesk.css">
+    <link rel="icon" type="image/png" href="/public/imagens/LogoTI.png"/>
+    <script defer type="text/javascript" src="loginAdm.js"></script>
+
+    <script>
+        function verificarAutenticacao() {
+          // Verificar se o usuário está autenticado
+          const usuarioAutenticado = sessionStorage.getItem('usuarioAutenticado');      
+          // Se o usuário não estiver autenticado, redirecionar para a página de login
+          if (!usuarioAutenticado) {
+            sessionStorage.clear();
+            window.location.href = '/public/manual-assistente-login';
+          }
+        }
+      
+        // Chamar a função de verificação ao carregar a página
+        window.onload = verificarAutenticacao;
+      </script>
+
+    <title>Tasy-Java</title>
+</head>
+<header>
+    <img src="imagens/logoNovoDivina.png" class="logoDivina">
+   
+    
+    </header>
+     <h1 class="tituloPag">ASSISTENTE DE SISTEMAS </h1>
+    <hr><div class="nav">
+    <a href="manual-assistente-inicio.html" ><button class="btNav" >Inicio</button></a>
+    <a href="" ><button class="btNav">Interact</button></a>
+    <a href="" ><button class="btNav">Wyse</button></a> 
+    <button class="btSair" id="btSair" onclick="Sair();">Sair</button>
+
+</div><hr>
+<br><br>
+<body>
+    <section>
+    <h1 class="tituloSec">TASY JAVA </h1>
+    
+<br>
+    <p><h3 class="tituloManual">INDICADORES DE SUPORTE</h3></p><br>
+    <li>
+        <b>Tempo de Triagem;</b>
+    </li>
+    <li>
+        <b>Resolutividade;</b>
+    </li>
+    <li>
+        <b>Satisfação;</b>
+    </li>
+    <p class="textfundoCor">
+        ÁREA DE ANÁLISE E DESENVOLVIMENTO<br><br>
+  
+        Compreende o atendimento de solicitações de
+desenvolvimento e ajuste em relatórios, auxílio na
+adequação de processos em conjunto com as lideranças das
+áreas de trabalho, parametrização do sistema para melhorar
+os fluxos de trabalhos definidos pelas lideranças. a área de
+análise e desenvolvimento também atua na busca e
+implementação de novas tecnologias, essas sempre
+alinhadas ao escritório de projetos e comitê de inovação.
+    </p><br>
+    <p><h3 class="tituloManual">OBJETIVOS E ESCOPO DE TRABALHO</h3></p>
+    O objetivo desse serviço abrange atividades como:
+    <li>
+        Esclarecimento de dúvidas quanto à operação dos sistemas utilizados pela rede; </li>
+    <li>
+        Análise de processos visando a melhoria do sistema;  </li>
+    <li>
+        Desenvolvimento e ajuste de relatórios e indicadores;  </li>
+    <li>
+        Analisar o impacto das alterações garantindo a integridade dos sistemas;  </li>
+    <li>
+        Implantar novas funcionalidades/módulos do sistema em conjunto com as lideranças;  </li>
+    <li>
+        Analisar e avaliar novas tecnologias e sistemas em conjunto com o comitê de inovação.  </li>
+<br>
+    <p><h3 class="tituloManual">O QUE NÃO É ESCOPO DA ÁREA DE ANÁLISE E DESENVOLVIMENTO</h3></p>
+    O objetivo desse serviço abrange atividades como:
+    <li>
+        Definição ou orientação sobre o negócio e/ou processo do colaborador;  </li>
+    <li>
+        Realizar ajustes, regras no sistema que são de responsabilidade das áreas de negócio;  </li>
+    <li>
+        Realizar alterações em registros no sistema.  </li>
+    
+    
+
+<hr>
+    <p><h3 class="tituloManual">CLASSIFICAÇÃO DE ATENDIMENTO</h3></p>
+        
+<p><b>Dúvida:</b> São situações recebidas pelo time de TI, onde o colaborador necessita de orientação
+para esclarecer situações pontuais relacionadas ao sistema, sejam cadastros ou usabilidade.</p>
+<p><b>Defeito:</b> São problemas do sistema que necessitam de ajustes em rotinas previamente
+liberadas.</p>
+<p><b>Solicitação:</b> São demandas nas quais tratam da necessidade de novas customizações, como
+evoluções tecnológicas e/ou melhorias/desenvolvimentos em relatórios. Ordens de serviço
+abertas com essa classificação são tratadas pelo time de Análise e Desenvolvimento.</p>
+<br>
+<p><h3 class="fundoNegrito">CLASSIFICAÇÃO DÚVIDA – PRIORIDADES</h3></p>
+        
+<p><b>Emergência –</b> Dúvida em processo ou função critica do sistema, que gera alto impacto para o
+    paciente que está em atendimento.</p>
+<p><b>Alta –</b> Dúvida em processo sistêmico ou função critica do sistema, que gera alto impacto para
+    o paciente em atendimento e/ou negócio e que necessita ser tratada com urgência.</p>
+<p><b>Média –</b> Dúvida em processo ou função importante, que não necessita urgência na solução,
+    considerando que a finalização do processo pode aguardar alguns dias.</p>
+<p><b>Baixa –</b> Dúvida em processo ou função não critica do sistema e que não representam
+    impacto significativo para o paciente ou negócio.</p>
+    <br>
+    <p><h3 class="fundoNegrito">CLASSIFICAÇÃO DEFEITO – PRIORIDADES</h3></p>
+        
+<p><b>Emergência –</b> O sistema não está disponível, ou seja, está inoperante e não existe
+    nenhuma alternativa para os usuários efetuarem trabalho.</p>
+<p><b>Alta –</b> O sistema está seriamente afetado ou não está disponível para um grupo de
+    usuários, não existindo alternativas para efetuar o trabalho.</p>
+<p><b>Média –</b> O serviço está afetado, causando dificuldade para efetuar seu trabalho
+    normal. Existem alternativas disponíveis para contornar a situação, embora outras
+    atividades possam ser afetadas enquanto se espera a resolução do problema.</p>
+<p><b>Baixa –</b> O serviço está afetado, mas existem alternativas disponíveis para executar o
+    trabalho. A não realização do serviço não resulta em impacto direto sobre o negócio.</p>
+    <br>
+    <p><h3 class="fundoNegrito">CLASSIFICAÇÃO SOLICITAÇÃO – PRIORIDADES</h3></p>
+        
+    <i><b>Para as solicitações, não haverá classificação de emergência.</b></i>
+    <p><b>Alta –</b> Solicitações que impactam em perda financeira, renúncia de receita ou
+        segurança do paciente de forma imediata.</p>
+    <p><b>Média –</b> Solicitações que impactam diretamente em mais de uma área de negócio e
+        que traga melhoria em desempenho para a instituição.</p>
+    <p><b>Baixa –</b> O serviço está afetado, mas existem alternativas disponíveis para executar o
+        trabalho. A não realização do serviço não resulta em impacto direto sobre o negócio.</p>
+    </section>
+    <hr>
+    <h1>NA PRÁTICA</h1><br>
+    <ul>
+    <li><h3>Erro de parâmetro 87 na criação ou atualização de login Tasy, siga esses passos abaixo para solucionar o problema:</h3>
+    <ol>
+    <p><li>Adm do sistema do estabelecimento referente;</li>
+        <li>Parâmetros;</li>
+        <li>Funções;</li>
+        <li>Sistema;</li>
+        <li>Menu do Sistema;</li>
+        <li>Parâmetro 87 (Forma de autenticação no Sistema);
+        <li>No final da página procurar o colaborador pelo nome de usuário;</li> 
+        <li>Selecionar nome de usuário;</li>
+        <li>Ir em Detalhe do lado direito;</li>
+        <li>No campo “Valor Parâmetro” no final da página verificar quais formas e colocar (Usuário / Login alternativo / Barras + Senha).</li></p>
+        </li></ol>
+    <br>
+    <li><h3>Criação Usuário Tasy Médico:</h3>
+    <p class="textoMaior">Médicos – <e class="alertaText">NÃO</e> podemos realizar cadastro de pessoa física dos médicos, somente o setor de CRM do hospital.
+        Para criar cadastros não médicos (Outros cargos) por via
+        de regra já devem possuir esse cadastro de pessoa fisica, pois seus setores solicitam ao RH, muito
+        raramente em casos específicos teremos que criar novos cadastros. Após estarem todos (médicos, outros) com cadastro de pessoa física então prosseguir com usuário Tasy.</p>
+    </li>
+    <br>
+    <li><h3>Protocólo Descrição Cirúrgica</h3>
+    <p class="textoMaior">PEP da unidade e perfil referente -><br>
+        Cadastros Gerais -><br>
+        Protocolo descrição cirurgia -><br>
+        Escolher a descrição e na aba Médicos adicionar o novo médico solicitado.</p>
+    </li>
+    <br>
+    <li><h3>Configuração ou Adição de "Alertas"</h3>
+        <ol>
+        <p> <li>Ir em Gestão de Qualidade do adm</li>
+            <li>Aba Alerta -> e abaixo outra aba Cadastro</li>
+            <li>Na aba cadastro aparecerá todos os alertas cadastrados no tasy</li>
+            <li>Procurar por Nome do Alerta o desejado</li>
+            <li>Ao selecionar pule para caixa de textos abaixo clique em branco e vá em "Detalhe" à direita</li>
+            <li>Padrão é Colocar o Usuário a alertar, Email destino e marcar o Check-Box “Email” se for o caso</li> 
+            <li>Salvar e pronto.</li></p>
+            </li></ol>
+<br>
+            <li><h3>Cadastro de novo computador nas funções</h3>
+                Nos cadastros das funções do ADM (shift+F11), buscar por computadores.
+                <ol>
+                <p> <li>Sistema -> Usuário -> Computadores.</li>
+                    <li>Na lista, filtrar de maneira que possa visualizar melhor e achar o objetivo.</li>
+                    <li>Procurar o antigo computador usando o antigo patrimônio.</li>
+                    <li>Criar um novo computador com todas as informações baseadas no antigo com a única diferença de colocar o novo patrimônio.</li>
+                    <li>Na aba local de estoque colocar o local baseado na localização real do equipamento.</li>
+                    <li>Salvar e pronto.</li></p>
+                    </ol>
+                    <br>
+            <li><h3>Analisar "Funções ativas nos "Perfis"</h3>
+                
+                <ol>
+                <p> <li>Administrador do Sistema HDP.</li>
+                    <li>1ª aba “Perfis” -> 2ª aba “Função X Perfil”.</li>
+                    </p></ol>
+    <footer>
+        <a href="manual-assistente-tasy-java.html" class="linkInicioRodap"><b>Inicio da Página</b></a>
+
+        <div class="btn_social">
+            <ul>
+                <li><a href="https://divinaprovidencia.org.br/" target="_blank" title="site"><e class="site">Site</e></a></li>
+                <li><a href="http://192.168.5.226:8080/intrarsdp/intranet/" target="_blank" title="intranet"><e class="intranet">Intranet</e></a></li>                   
+            </ul>
+        </div>
+        </footer>
+   
+   <!-- ASSISTENTE GEMINI -->
+<script type="module" src="/gemini-assistant.js"></script>
+</body>
+</html>

@@ -1,0 +1,385 @@
+
+
+.boxInteract{
+    border: groove gray 4px; 
+    width: 460px;
+    height: 200px;
+    box-sizing: border-box;
+    padding-left: 8px;
+    padding-bottom: 8px;    
+}
+
+.boxWyse{
+    border: groove gray 4px; 
+    width: 460px;
+    height: 250px;
+    box-sizing: border-box;
+    padding-left: 8px;
+    padding-bottom: 8px;
+   
+}
+
+.boxVnc{
+    border: groove gray 4px; 
+    width: 460px;
+    height: 610px;
+    box-sizing: border-box;
+    padding-left: 8px;
+    padding-bottom: 8px;
+}
+
+.boxArya {
+    border: groove gray 4px; 
+    width: 500px;
+    height: 320px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-bottom: 8px;
+}
+
+.boxKorus{
+  border: groove gray 4px; 
+  width: 460px;
+  height: 250px;
+  box-sizing: border-box;
+  padding-left: 8px;
+  padding-bottom: 8px;
+}
+
+.boxArya h3{
+  text-decoration-line: none;
+}
+
+h1 a{
+  margin-left: 970px;
+  color: #1aafb5;
+  text-decoration: overline underline;
+  float: right;
+
+}
+
+h2{
+  text-align: center;
+  color: blue;
+}
+
+h3{
+  background-color: #bfd8f1;
+}
+
+.textoMaior{
+  font-size: 20px;
+}
+.btNav {
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:30px;
+    border-width:1px;
+    color:#fff;
+    border-color:#337bc4;
+    font-weight:bold;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    box-shadow: 3px 4px 0px 0px #1564ad;
+    text-shadow: 0px 1px 0px #528ecc;
+    background:linear-gradient(#79bbff, #378de5);
+    margin: auto; 
+    margin-left: 5px; 
+    margin-right: 5px;
+  }
+  
+.btNav:hover {
+    background: linear-gradient(#378de5, #79bbff);
+  }
+
+.btNav:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  }
+
+.tituloPag{
+    text-align: center;
+    color: rgb(13, 16, 186);
+    background-color: linear-gradient(white, #378de5);
+    border-radius: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+header{
+    text-align: center;
+    background-color: rgb(47, 179, 135);
+    border-radius: 20px;
+    padding-top: 25px;
+    border: rgb(14, 44, 34);
+    background-image: linear-gradient(rgb(56, 192, 90), rgb(160, 232, 179),rgb(56, 192, 90));
+    margin-bottom: -18px;
+   
+    
+     }
+
+.logoDivina{
+    border-radius: 35px;
+    height:92px;  
+    width: 200px;  
+  }
+
+.nav{
+    
+    text-align: center;
+    margin-bottom: 5px;        
+  }
+
+.tituloSec{
+   text-align: center;
+   color:white;
+   background-color: rgb(76, 73, 73);
+   margin-top: 0;
+   border-radius: 10px;
+  
+ }
+
+section{
+   padding: 35px;
+   padding-top: 0px;
+   background-color: AliceBlue;
+   min-height: 1000px;
+   
+ }
+
+.fundoNegrito{
+  background-color: black;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin: auto;
+ }
+
+i{
+  text-decoration-line: underline;  
+ }
+
+.secKorus{
+text-align: center;
+ }
+.alertaText{
+  color: red;
+ }
+
+.tituloManual{
+  font-size: 25px;
+  text-decoration-line: none; 
+ }
+
+.textfundoCor{
+  background-color: DarkSlateGray;
+  color: white;
+  padding: 15px;
+  font-size: 25px;
+  
+ }
+.destaqText{
+  color:#337bc4
+ }
+.textCaixa{
+  margin: 35px;
+  padding: 20px;
+  font-size: 25px;
+  background-color: DarkSlateGray;
+  color: white;
+  margin-top: 4px;
+ }
+ 
+.paragrafoText{
+  margin: 35px;
+ }
+
+.tituloInicio{
+   text-align: center;
+   color:white;
+   background-color: rgb(76, 73, 73);
+   margin-top: 0;
+   border-radius: 10px;
+ 
+ }
+
+.maisDestaque{
+  font-size: 22px;
+  color: #17bd80;
+  font-style: normal;
+ }
+
+ol li{
+  font-size: 19px;
+ }
+
+footer{
+height: 80px;
+text-align: center;
+padding-top: 2px;
+background-color: rgb(185, 174, 163);
+ }
+ .linkInicioRodap{
+  text-decoration: none;
+  float: right;
+  margin-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  font-size: 13px;
+ }
+.btn_social { 
+	width:100%; 
+	float:left; 
+	display:flex; 
+	margin:auto; 
+}
+.btn_social ul  { 
+	width:auto; 
+	margin:auto; 
+	float:left; 
+	display:block; 
+}
+.btn_social ul li  { 
+	position:relative; 
+	background:#434141; 
+	list-style:none; 
+	float:left; 
+	margin:5px; 
+	z-index:1; 
+	overflow:hidden; 
+	border-radius:3px; 
+	font-size:10px; 
+	text-align:center; 
+}
+.btn_social ul li a  { 
+	width:50px; 
+	height:50px; 
+	line-height:53px; 
+	display:block; 
+	text-decoration:none; 
+	color:#fff; 
+	transition:.4s;
+}
+.btn_social ul li::before { 
+	transition:0.4s; 
+	position:absolute; 
+	content:''; 
+	width:100%; 
+	height:100%; 
+	top:90%; 
+	left:0; 
+	background:#2fcacf; 
+	z-index:-1; 
+	transform: scale(1); 
+	transition:.4s; 
+}
+.btn_social ul li:hover::before { transition:0.4s; top:0%; }
+.btn_social ul li a:hover       { color:#555555; }
+
+legend{
+  font-size: 27px;
+  text-decoration-line: underline;
+  font-family:'impact'; 
+  
+}
+
+.btAdm{
+    font-size:15px;
+    font-family:Arial;
+    width:70px;
+    height:30px;
+    border-width:1px;
+    color:#fff;
+    border-color:#337bc4;
+    font-weight:bold;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    box-shadow: 3px 4px 0px 0px #1564ad;
+    text-shadow: 0px 1px 0px #528ecc;
+    background:linear-gradient(#79bbff, #378de5);
+    margin: auto; 
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+.btAdm:hover {
+  background: linear-gradient(#378de5, #79bbff);
+}
+
+.btAdm:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.btSair{
+  float: right;
+  height: 25px;
+  width: 30px;
+  font-size:10px;
+  font-family:Arial;
+  border-width:1px;
+  color:rgb(255, 255, 255);
+  border-color:#7eafdd;
+  font-weight:bold;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  text-shadow: 0px 1px 0px #ac8c8c;
+  background:linear-gradient(#b4340c, #e53737);
+  margin: auto; 
+ }
+ .btSair:hover {
+  background: linear-gradient(#e53737, #b4340c);
+}
+.btSair:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(230, 227, 227, 0.24);
+}
+
+
+/* ===== Painel de Log do Gemini ===== */
+#geminiLogPanel {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 160px;
+  background: #111;
+  color: #0f0;
+  font-family: Consolas, monospace;
+  font-size: 13px;
+  border-top: 2px solid #0d6efd;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  z-index: 9998;
+}
+
+#geminiLogHeader {
+  background: #0d6efd;
+  color: white;
+  padding: 6px 12px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#geminiLogContent {
+  flex: 1;
+  padding: 8px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+
+#geminiLogContent .error {
+  color: #f55;
+}
+#geminiLogContent .info {
+  color: #0f0;
+}

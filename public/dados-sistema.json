@@ -1,0 +1,26 @@
+
+{
+  "indicadores": {
+    "tempoTriagem": "95% < 5min",
+    "resolutividade": "92% no primeiro contato",
+    "satisfacao": "4.8/5 (média mensal)"
+  },
+  "chamadosMes": [
+    { "data": "2025-11-01", "tipo": "Dúvida", "prioridade": "Média", "status": "Resolvido" },
+    { "data": "2025-11-02", "tipo": "Defeito", "prioridade": "Alta", "status": "Resolvido" },
+    { "data": "2025-11-03", "tipo": "Solicitação", "prioridade": "Baixa", "status": "Em análise" },
+    { "data": "2025-11-04", "tipo": "Dúvida", "prioridade": "Emergência", "status": "Resolvido" },
+    { "data": "2025-11-05", "tipo": "Dúvida", "prioridade": "Média", "status": "Resolvido" }
+  ],
+  "usuariosCadastrados": [
+    { "nome": "vinicius.leal", "perfil": "Administrador", "ultimoAcesso": "2025-11-06 14:30" },
+    { "nome": "eduardo.guedes", "perfil": "Assistente", "ultimoAcesso": "2025-11-06 09:15" }
+  ],
+  "procedimentosMaisAcessados": [
+    "Erro parâmetro 87",
+    "Criação usuário Tasy Médico",
+    "Protocolo descrição cirúrgica",
+    "Alertas no Tasy",
+    "Cadastro novo computador"
+  ]
+}
